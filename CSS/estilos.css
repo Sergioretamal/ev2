@@ -1,0 +1,84 @@
+/* INDEX */
+
+body {
+    font-family: Arial, sans-serif;
+  }
+
+  .navbar-custom {
+    background-color: #4CAF50; 
+    padding: 10px 0;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #fff; 
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 0 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    background-color: #388E3C; 
+  }
+/* carrusel */
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: #00681a77;
+    border-radius: 50%;
+    padding: 10px;
+  }
+
+/* iframe */
+  iframe {
+    display: flex;
+    width: 100%;
+    height: 300vh;
+    border: none;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+
+
+
+/* login */
+.bodylogin {
+    background-color: white;
+  }
+  .login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  }
+  .login-container h2 {
+    color: #00af5d;
+    text-align: center;
+  }
+  .form-group {
+    margin-bottom: 20px;
+  }
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .form-group button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00af5d;
+    color: #fff;
+    cursor: pointer;
+  }
+  .form-group button:hover {
+    background-color: blue;
+  }
+
+
+  
